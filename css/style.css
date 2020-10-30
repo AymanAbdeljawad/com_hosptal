@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.logo{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.logo p{
+   font-size: 2em;
+    font-weight: bold;
+    color: #63C2E9;
+}
+
+input{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 45px;
+    width: 450px;
+    /*border-radius: 20px;*/
+}
+
+input[placeholder]{
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type="date"], input[type="submit"]{
+    font-size: 20px;
+    text-align: center;
+}
+
+input[type="submit"]{
+    background-color: #63C2E9;
+}
+
+.form p{
+    text-align: center;
+    font-size: 20px;
+
+}
+
+table{
+   border: 1px solid #FFF;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    color: #fff;
+    border-collapse: collapse;
+}
+
+table td , table th {
+    border: 1px solid #FFF;
+
+}
+
+.masseg{
+   text-align: center;
+}
